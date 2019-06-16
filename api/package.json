@@ -1,0 +1,43 @@
+{
+  "name": "mindlab-test-api",
+  "version": "1.0.0",
+  "description": "Mindlab job application test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon src/index.ts",
+    "build": "tsc --skipLibCheck",
+    "start": "NODE_ENV=production node dist/index.js "
+  },
+  "author": "Manoel Freitas",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^4.13.18",
+    "morgan": "^1.9.1",
+    "supertest": "^4.0.2",
+    "ts-node": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/compression": "0.0.36",
+    "@types/cors": "^2.8.5",
+    "@types/helmet": "0.0.43",
+    "@types/method-override": "0.0.31",
+    "@types/node": "^12.0.8",
+    "argon2": "^0.23.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.16.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2",
+    "typings": "^2.1.1"
+  }
+}
