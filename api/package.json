@@ -18,7 +18,7 @@
     "express": "^4.17.1",
     "helmet": "^3.18.0",
     "method-override": "^3.0.0",
-    "mongoose": "^4.13.18",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "supertest": "^4.0.2",
     "ts-node": "^8.3.0"
